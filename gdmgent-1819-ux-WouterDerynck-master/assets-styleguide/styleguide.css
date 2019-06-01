@@ -1,0 +1,297 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+.sg-title {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #333;
+    margin: 1rem 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+.sg-subtitle {
+    font-size: 1rem;
+    border-bottom: solid 1px #aaa;
+    font-weight: 400;
+    color: #666;
+    text-transform: uppercase;
+    margin: 2rem 0 .5rem 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+/* ------------------------------------------------------------------------------------------------------------- */
+/* KLEUREN */
+/* DIV WITH ALL COLORS IN IT */
+.allcolors{
+    display: flex;
+    justify-content: left;
+    width: fit-content;
+    box-shadow:  0 0 15px 0.5px rgba(0, 0, 0, 0.2);
+    margin: 50px;
+}
+
+/* CLASS FOR ALL COLOR DIVS */
+.colors{
+    position: relative;
+}
+
+/* COLORS */
+#redribbon{
+    background-color: #E00040;
+    /* border: 1px black solid; */
+    height: 200px;
+    width: 200px;
+    /* margin: 50px; */
+}
+
+#buddhagold{
+    background-color: #C2B400;
+    /* border: 1px black solid; */
+    height: 200px;
+    width: 200px;
+    /* margin: 50px; */
+}
+
+#bahamablue{
+    background-color: #077394;
+    /* border: 1px black solid; */
+    height: 200px;
+    width: 200px;
+    /* margin: 50px; */
+}
+
+/* BG FOR TEXT */
+.bg{
+    background-color: #fafafa;
+    /* border: 1px black solid; */
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    bottom: 0%;
+    box-shadow: 0px -5px 5px -5px rgba(0, 0, 0, 0.3);
+}
+
+/* TXT */
+.bg > ul {
+    list-style: none;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    line-height: 20pt;
+    font-weight: 600;
+
+}
+
+.bg > ul > .name {
+    color: #666;
+    font-style: oblique;
+    font-size: 10pt;
+}
+
+/* ------------------------------------------------------------------------------ */
+/* TYPOGRAFIE */
+
+/* GENERAL DIV */
+.typo{
+    /* border: 3px solid black; */
+    margin: 50pt;
+}
+
+/* NAME OF FONT */
+.typo-name{
+    /* border: 3px solid black; */
+    font-family: 'Open Sans';
+    font-size: 20pt;
+    margin-bottom: 20pt;
+}
+
+/* DISPLAY FONT */
+.typo-display{
+    /* border: 3px solid black; */
+    display: flex;
+    width: 400pt;
+    justify-content: space-around;
+}
+
+.display-semibold{
+    font-size: 40pt;
+    font-family: 'Open Sans';
+}
+.display-italic{
+    font-size: 40pt;
+    font-family: 'Open Sans';
+    font-style: italic;
+}
+
+/* FONT STYLE */
+.typo-style{
+    /* border: 3px solid black; */
+    display:flex;
+    width: 400pt;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.style-semibold{
+    font-family: 'Open Sans';
+
+}
+
+.style-italic{
+    font-family: 'Open Sans';
+    font-style: italic;
+
+}
+
+.typo > #one{
+    font-family: 'open sans';
+    font-size: 24pt;
+    line-height: 33pt;
+}
+
+.typo > #two{
+    font-family: 'open sans';
+    font-size: 20pt;
+    line-height: 27pt;
+}
+
+.typo > #three{
+    font-family: 'open sans';
+    font-size: 16pt;
+    line-height: 22pt;
+}
+
+.typo > #four{
+    font-family: 'open sans';
+    font-size: 14pt;
+    line-height: 19pt;
+}
+
+.typo > #five{
+    font-family: 'open sans';
+    font-size: 12pt;
+    line-height: 17pt;
+}
+
+.typo > #six{
+    font-family: 'open sans';
+    font-size: 10pt;
+    line-height: 14pt;
+    font-style: italic;
+}
+
+.typo > #seven{
+    font-family: 'open sans';
+    font-size: 18pt;
+    line-height: 24pt;
+}
+
+
+/* -------------------------------------------------------------------- */
+/* KNOPPEN */
+
+/* ZOEK KNOP */
+.buttons{
+ display: flex;
+ justify-content: left;
+}
+
+.buttons > p{
+    display: block;
+    font-family: 'open sans';
+    margin: 68px 0 0 50px;
+
+}
+
+.button-1, .button-2{
+    margin: 50px;
+}
+
+.button-1 > p .button-2 > p {
+ font-family: 'open sans';
+ font-size: 14pt;
+}
+
+/* BUTTON 1 */
+.button-1 > .Button-primary{
+    align-items : center;
+    background-color: #E00040;
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    font-family: 'open sans';
+    font-size: 20pt;
+    height: 55px;
+    justify-content: center;
+    margin: 30px 0 30px 0;
+    width: 352px;
+}
+
+.button-1 > .Button-hover{
+    align-items : center;
+    background-color: rgb(231, 50, 102);
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    font-family: 'open sans';
+    font-size: 20pt;
+    height: 55px;
+    justify-content: center;
+    margin: 30px 0 30px 0;
+    width: 352px;
+}
+
+.button-1 > .Button-click{
+    align-items : center;
+    background-color: rgb(122, 0, 35);
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    font-family: 'open sans';
+    font-size: 20pt;
+    height: 55px;
+    justify-content: center;
+    margin: 30px 0 30px 0;
+    width: 352px;
+}
+
+/* BUTTON 2 */
+.button-2 > .Button-primary{
+    align-items : center;
+    background-color: #077394;
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    font-family: 'open sans';
+    font-size: 20pt;
+    height: 55px;
+    justify-content: center;
+    margin: 30px 0 30px 0;
+    width: 352px;
+}
+
+.button-2 > .Button-hover{
+    align-items : center;
+    background-color: #0a85aa;
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    font-family: 'open sans';
+    font-size: 20pt;
+    height: 55px;
+    justify-content: center;
+    margin: 30px 0 30px 0;
+    width: 352px;
+}
+
+.button-2 > .Button-click{
+    align-items : center;
+    background-color: #085e79;
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    font-family: 'open sans';
+    font-size: 20pt;
+    height: 55px;
+    justify-content: center;
+    margin: 30px 0 30px 0;
+    width: 352px;
+}
+
