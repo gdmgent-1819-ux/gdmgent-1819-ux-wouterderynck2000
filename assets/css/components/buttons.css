@@ -1,0 +1,63 @@
+/* General */
+
+button:focus {
+    outline: none;
+}
+
+/* Main */
+
+.bg-main button {
+    background-color: var(--c-grey-light);
+    border-radius: 5px;
+    border: 3px solid var(--c-grey-dark);
+    width: 188px;
+    height: 55px;
+    font-size: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 400;
+}
+
+.bg-main button:focus {
+    background-color: rgba(255, 255, 255, 80%);
+}
+
+/* Reserveren */
+
+.reserve button {
+    color: var(--c-blue);
+    background-color: var(--c-purple);
+    border-radius: 5px;
+    border: 3px solid var(--c-grey-dark);
+    height: 55px;
+    width: 188px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.reserve button:focus {
+    background-color: var(--c-green);
+    color: var(--c-purple);
+}
+
+/* CTA */
+
+.cta button {
+    margin-top: 2vh;
+    font-size: 13px;
+    font-weight: 700;
+    width: 130px;
+    height: 40px;
+    box-shadow: 2px 1px var(--c-grey-dark);
+    border: 1.5px solid var(--c-grey-dark);
+    border-radius: 5px;
+    color: var(--c-purple);
+    background-color: var(--c-blue);
+}
+
+.cta :nth-child(1) {
+    margin-right: 35px;
+}
+
+.cta button:focus {
+    background-color: rgb(40, 168, 172);
+}

@@ -1,3 +1,14 @@
+@import url('variables.css');
+
+.box {
+    border: 1px solid red;
+}
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
 .sg-title {
     font-size: 1.7rem;
     font-weight: 400;
@@ -14,4 +25,271 @@
     text-transform: uppercase;
     margin: 2rem 0 .5rem 0;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+/* .colors {
+    border: 1px red solid;
+} */
+
+.content-colors {
+    width: 100%;
+    margin-top: 3.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-color, .second-color, .tertiary-color, .quaternary-color {
+    padding: 0px 0px 10px 0px;
+    border: 6px black solid;
+}
+
+.color {
+    height: 25vh;
+    width: 22vw;
+    border-bottom: 6px black solid;
+    margin-bottom: 10px;
+}
+
+.main-color > .color {
+    background-color: var(--c-purple);
+}
+
+.second-color > .color {
+    background-color: var(--c-blue);
+}
+
+.tertiary-color > .color {
+    background-color: var(--c-grey-dark);
+}
+
+.quaternary-color > .color {
+    background-color: rgba(190, 178, 119, 100%);
+}
+
+.text {
+    margin-right: 10px;
+    text-align: right;
+}
+
+.content-typography {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 120vh;
+}
+
+.centered-typography {
+    width: 80vw;
+    height: 25vh;
+}
+
+.centered-typography h1 {
+    font-size: 40px;
+}
+
+.name-font {
+    margin-top: 0;
+    font-size: 40px;
+}
+
+.regular {
+    font-weight: 500;
+}
+
+.styles {
+    margin-left: 10px;
+    margin-top: 0px;
+    display: flex;
+    width: 25vw;
+    justify-content: space-around;
+}
+
+.normal-text {
+    text-align: center;
+    font-size: 18px;
+}
+
+.styles-text {
+    font-size: 38px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.name-font, .styles-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.examples {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 70%;
+    height: 36vh;
+    width: 90vw;
+}
+
+.example-text {
+    margin-top: -100px;
+}
+
+.first-line {
+    font-size: 24pt;
+    line-height: 33pt;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.second-line {
+    font-size: 20pt;
+    line-height: 27pt;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
+.third-line {
+    font-size: 12pt;
+    line-height: 18pt;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.different-fonts {
+    display: contents;
+    width: 20vw;
+    height: 20vh;
+    border: 5px green solid;
+}
+
+.all-fonts {
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.font-first {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font-secondary {
+    font-family: 'Yu Gothic', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.together {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(190, 178, 119, 100%);
+}
+
+.btn {
+    padding: 14px 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: 3px var(--c-grey-dark) solid;
+}
+
+.reserveer {
+    background-color: rgba(255, 255, 255, 59%);
+}
+
+.reserveer:hover {
+    background-color: rgba(255, 255, 255, 0.707);
+}
+
+.reserveer:focus {
+    background-color: rgb(255, 255, 255);
+}
+
+.menu {
+    background-color: var(--c-purple);
+    color: var(--c-blue);
+}
+
+.menu:hover {
+    background-color: rgb(138, 57, 110);
+    color: var(--c-blue);
+}
+
+.menu:focus {
+    background-color: rgb(20, 103, 106);    
+    color: black;
+}
+
+.buttons h3 {
+    padding: 15px 0px 0px 15px;
+    background-color: rgba(190, 178, 119, 100%);
+}
+
+.confirm {
+    padding: 14px 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: none;
+    border: none;
+    background-color: var(--c-purple);
+    color: var(--c-blue);
+}
+
+.confirm:focus {
+    background-color: rgb(20, 103, 106);
+    color: black;
+}
+
+.field {
+    margin-left: 30%;
+    margin-top: 29px;
+}
+
+.field button {
+    margin-top: 30px;
+}
+
+.field p {
+    margin-top: 15px;
+    line-height: 19pt;
+}
+
+.field-label {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 17px;
+    margin-top: 21px;
+}
+
+.input-field:focus {
+    outline: none;
+}
+
+.input-field {
+    border-radius: 5px;
+    border: 1px gray solid;
+    padding: 10px 50px 10px 8px;
+}
+
+.components {
+    height: 50vh;
+}
+
+.number-persons {
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.persons {
+    margin-left: 25px;
+}
+
+.logo {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.logo-img {
+    width: 120px;
 }

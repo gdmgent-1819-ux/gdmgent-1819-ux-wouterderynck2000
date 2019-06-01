@@ -1,26 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i');
 
 :root {
   /**
    * Colour palette
    */
-  --c-primary: hsl(190, 100%, 40%);
+   --c-blue: rgba(131, 195, 197, 100%);
+   --c-purple: rgba(115, 58, 95, 100%);
+   --c-green: rgba(84, 197, 71, 100%);
+   --c-grey-light: rgba(255, 255, 255, 59%);
+   --c-grey-dark: rgba(112, 112, 122, 100%);
+
+ 
+   --c-primary: var(--c-purple);
+   --c-secondary: var(--c-blue);
+   --c-tertiary: var(--c-green);
+   --c-quaternary: var(--c-grey-dark);
+   --c-quinary: var(--c-grey-light);
 
   /**
    * Layout
    */
-  --l-gutter: 1rem;
+   --gutter: .75rem;
 
   /**
    * Typography
    */
-  --t-primary: Arial, Helvetica, sans-serif;
-  --t-secondary: Arial, Helvetica, sans-serif;
-  --t-tertiary: monospace;
-
-  --t-headline: var(--t-primary);
-  --t-subtitle: var(--t-primary);
-  --t-body: var(--t-secondary);
-  --t-code: var(--t-tertiary);
+  --f-body: 'Segoe UI';
+  --f-heading: 'Source Sans Pro';
 }
-
-
