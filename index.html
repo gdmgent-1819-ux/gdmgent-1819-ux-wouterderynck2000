@@ -1,12 +1,316 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Eindopdracht UX</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/Logo/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/Logo/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/Logo/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/Logo/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/Logo/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/Logo/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/Logo/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/Logo/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/Logo/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/Logo/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/Logo/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/Logo/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/Logo/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/Logo/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="assets/css/main.css">
+    <title>Eindopdracht UX</title>
 </head>
+
 <body>
+
+    <header class="navigation row">
+
+        <a href="index.html" class="home col-6 col-md-3 col-lg-3 hidden-on-phone link">
+            <img src="assets/images/pottenlikker.png" alt="Logo">
+            <p class="name-restaurant purple">De Pottenlikker</p>
+        </a>
+
+        <div class="col-6 col-md-9 col-lg-9 hidden-on-phone bar">
+            <div class="menu">
+                <a href="Doorverwijzingen/kaart.html" class="bar-item first link purple">
+                    Kaart
+                </a>
+                <a href="Doorverwijzingen/reserveren.html" class="bar-item link purple">
+                    Reserveren
+                </a>
+                <a href="Doorverwijzingen/locatie.html" class="bar-item link purple">
+                    Locatie
+                </a>
+                <a href="Doorverwijzingen/cadeaubonnen.html" class="bar-item link purple">
+                    Cadeaubonnen
+                </a>
+                <a href="Doorverwijzingen/overons.html" class="bar-item link purple">
+                    Ons verhaal
+                </a>
+                <a href="Doorverwijzingen/contact.html" class="bar-item link purple">
+                    Contact
+                </a>
+            </div>
+        </div>
+
+        <a href="" class="col-1 phone-menu hidden-on-big-screen link">
+            <img src="assets/images/Hamburgermenu.png" alt="Hamburgermenu">
+        </a>
+
+        <div class="purple welcome-text hidden-on-big-screen">
+            <div class="actual-text">Welkom bij restaurant De Pottenlikker</div>
+        </div>
+
+    </header>
+
+    <main class="row">
+
+        <div class="bg-main col-12 col-sm-6 col-md-8">
+
+            <button class="hidden-on-phone">
+                Bekijk onze kaart
+            </button>
+            <a href="#full-screen">
+                <img src="assets/images/Pijl-Beneden.svg" alt="Pijl zou hier moeten verschijnen">
+            </a>
+
+            <div class="hidden-on-big-screen container-quote">
+                <div class="hidden-on-big-screen sergio">
+                    <span class="hidden-on-big-screen blue">"(H)eerlijke gerechten"</span><br>
+                    <span class="hidden-on-big-screen pink">- Sergio Herman</span>
+                </div>
+            </div>
+
+        </div>
+
+        <aside class="purple-background col-12 col-sm-6 col-md-4">
+            <div class="opening">
+                <p class="openinghours-title blue">
+                    Openingsuren
+                </p>
+                <div class="line">
+                </div>
+            </div>
+            <div class="text-opening">
+                <p class="info-open">Ma-Woe: 10-14 en 18-22u</p>
+                <p class="info-open current-day">Do-Vr: 10-14 en 18-23u</p>
+                <p class="info-open">Za: 10-15 en 18-24u</p>
+                <p class="info-open info-last">Zon- en feestdagen: enkel bij reservatie van 10-24u</p>
+                <p class="info-open info-close">Keuken sluit telkens 45 minuten op voorhand</p>
+            </div>
+        </aside>
+
+    </main>
+
+    <section id="full-screen">
+
+        <div class="row criticism">
+            <div class="first-two-critics">
+                <div class="review-person">
+                    <img src="assets/images/Getuigenis-01.png" alt="Getuigenis 1 zou hier moeten verschijnen">
+                    <p class="name-reviewer">Julie Ornelis (De Morgen)</p>
+                </div>
+
+                <div class="review-person second-review">
+                    <img src="assets/images/Getuigenis-02.png" alt="Getuigenis 2 zou hier moeten verschijnen">
+                    <p class="name-reviewer">Bruno Vanspauwen (De Standaard)</p>
+                </div>
+            </div>
+
+            <div class="review-person">
+                <img src="assets/images/Getuigenis-03.png" alt="Getuigenis 3 zou hier moeten verschijnen">
+                <p class="name-reviewer">Sergio Herman</p>
+            </div>
+        </div>
+
+        <div class="row convince">
+            <div class="nominations">
+                <img class="emblem" src="assets/images/Award-01.png" alt="Award 1 zou hier moeten verschijnen">
+                <img class="emblem" src="assets/images/Award-02.png" alt="Award 2 zou hier moeten verschijnen">
+                <img class="emblem" src="assets/images/Award-03.png" alt="Award 3 zou hier moeten verschijnen">
+                <img class="emblem" src="assets/images/Award-04.png" alt="Award 4 zou hier moeten verschijnen">
+            </div>
+        </div>
+
+        <div class="reserve">
+
+            <button>
+                Reserveer nu
+            </button>
+
+        </div>
+
+    </section>
+
+    <section class="row hidden-on-big-screen col-12 cta">
+
+        <button>
+            Bekijk onze kaart
+        </button>
+
+        <button>
+            Reserveer nu
+        </button>
+
+    </section>
+
+    <section class="row pictures">
+
+        <div class="purple some-pics-text">
+            Enkele foto's
+        </div>
+
+        <div class="some-pics">
+            <img alt="Terukeren" src="assets/images/Show-previous.png" class="circle circle-1">
+            <img alt="Buiten" src="assets/images/Terras.jpg" class="clickable-pic">
+            <img alt="Binnen" src="assets/images/Restaurant-02.jpg" class="clickable-pic">
+            <img alt="Buiten" src="assets/images/Terras.jpg" class="clickable-pic">
+            <img alt="Binnen" src="assets/images/Restaurant-02.jpg" class="clickable-pic">
+            <img alt="Vooruit" src="assets/images/Show-next.png" class="circle circle-2">
+        </div>
+
+    </section>
+
+    <footer class="row hidden-on-phone page-end">
+
+        <div class="area-info">
+            <div class="col-sm-12 information">
+
+                <ul class="column-footer adres">
+                    <li><a href="" class="link first-item">
+                            ADRES
+                        </a></li>
+                    <li>
+                        De Pottenlikker
+                    </li>
+                    <li>
+                        Kapelrie 62
+                    </li>
+                    <li>
+                        8490 Varsenare
+                    </li>
+                </ul>
+
+                <ul class="column-footer reach-us">
+                    <li class="first-item">BEREIK ONS</li>
+                    <li>T: +32 (0)50 405 559</li>
+                    <li>F: +32 (0)50 405 560</li>
+                    <li>Email: <a class="link"
+                            href="mailto:depottenlikker@hotmail.com?subject=Customer question">depottenlikker@hotmail.com</a>
+                    </li>
+                </ul>
+
+                <ul class="column-footer extra">
+                    <li>
+                        <p class="first-item">DE POTTENLIKKER</p>
+                    </li>
+                    <li><a href="" class="link">Disclaimer</a></li>
+                    <li><a href="" class="link">Terms and conditions</a></li>
+                    <li><a target="_blank"
+                            href="https://www.google.com/search?q=De+Pottenlikker&source=lnms&tbm=nws&sa=X&ved=0ahUKEwit74rikYziAhWCZlAKHTiVD0gQ_AUIESgE&biw=1536&bih=754"
+                            class="link">News</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="area-social">
+
+            <div class="socials">
+
+                <a href="" class="link social-media">
+                    <img src="assets/images/Logo-Facebook.svg" alt="Facebook logo zou hier moeten verschijnen">
+                </a>
+
+                <a href="" class="link social-media">
+                    <img src="assets/images/Logo-Instagram.svg" alt="Instagram logo zou hier moeten verschijnen">
+                </a>
+
+                <a href="" class="link social-media">
+                    <img src="assets/images/Logo-Twitter.svg" alt="Twitter logo zou hier moeten verschijnen">
+                </a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <footer class="row col-12 hidden-on-big-screen footer-phone">
+
+        <div class="first-row-footer">
+
+            <ul class="column-footer-phone adres-phone">
+                <li><a href="" class="link first-item-phone">
+                        ADRES
+                    </a>
+                </li>
+
+                <div class="actual-info-phone">
+
+                    <li>
+                        De Pottenlikker
+                    </li>
+                    <li>
+                        Kapelrie 62
+                    </li>
+                    <li>
+                        8490 Varsenare
+                    </li>
+
+                </div>
+
+            </ul>
+
+            <ul class="column-footer-phone extra-phone">
+                <li>
+                    <p class="first-item-phone">DE POTTENLIKKER</p>
+                </li>
+                <div class="actual-info-phone">
+                    <li><a href="" class="link">Disclaimer</a></li>
+                    <li><a href="" class="link">Terms and conditions</a></li>
+                    <li><a target="_blank"
+                            href="https://www.google.com/search?q=De+Pottenlikker&source=lnms&tbm=nws&sa=X&ved=0ahUKEwit74rikYziAhWCZlAKHTiVD0gQ_AUIESgE&biw=1536&bih=754"
+                            class="link">News</a></li>
+                </div>
+            </ul>
+
+        </div>
+
+        <div class="second-row-footer">
+            <div class="socials-phone">
+                <a href="">
+                    <img src="assets/images/Logo-Facebook.svg" alt="Facebook">
+                </a>
+                <a href="">
+                    <img src="assets/images/Logo-Instagram.svg" alt="Instagram">
+                </a>
+                <a href="">
+                    <img src="assets/images/Logo-Twitter.svg" alt="Twitter">
+                </a>
+            </div>
+        </div>
+
+        <div class="third-row-footer">
+            <ul class="column-footer-phone reach-us-phone">
+                <li class="first-item-phone2">BEREIK ONS</li>
+                <div class="actual-info-phone">
+                    <li>T: +32 (0)50 405 559</li>
+                    <li>F: +32 (0)50 405 560</li>
+                    <li>Email: <a class="link"
+                            href="mailto:depottenlikker@hotmail.com?subject=Customer question">depottenlikker@hotmail.com</a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+
+    </footer>
+
 </body>
+
 </html>
